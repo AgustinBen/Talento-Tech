@@ -1,0 +1,7 @@
+*
+!preEntrega/
+!entrega/
+!preEntrega/**
+!entrega/**
+.idea/
+*.iml
