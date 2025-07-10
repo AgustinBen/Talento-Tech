@@ -18,6 +18,17 @@ public class Producto {
 
     }
 
+    public void mostrarInfo(){
+        System.out.printf("""
+               
+               id: %s
+               nombre: %s
+               precio: %s
+               stock: %s
+               
+               """, this.id, this.nombre, this.precio, this.stock);
+    }
+
     public int getId(){
         return id;
     }

@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -7,6 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int opcionUsuario;
+        ArrayList<Producto> productos =  new ArrayList<>();
 
         Scanner entrada = new Scanner(System.in);
 
